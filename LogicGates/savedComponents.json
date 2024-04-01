@@ -1,0 +1,99 @@
+{
+    "standardComponents": [
+        {
+            "componentDescription": "L'utente può cambiare lo stato dell'interruttore. Gli interruttori costituiscono l'input del circuito",
+            "componentName": "Interruttore standard",
+            "instanceDescription": "",
+            "instanceName": "Interruttore",
+            "type": 1
+        },
+        {
+            "componentDescription": "Le Lampadine costituiscono l'output del circuito",
+            "componentName": "Lampadina standard",
+            "instanceDescription": "",
+            "instanceName": "Lampadina",
+            "type": 2
+        },
+        {
+            "componentDescription": "Le porte logiche implementano una particolare operazione logica di una o più variabili booleane. L'AND logico rende vero l'output solo quando tutti gli input sono veri",
+            "componentName": "Porta logica AND",
+            "inputNumber": 2,
+            "instanceDescription": "",
+            "instanceName": "AND",
+            "outputNumber": 1,
+            "truthTable": [
+                [
+                    false,
+                    false,
+                    false
+                ],
+                [
+                    false,
+                    true,
+                    false
+                ],
+                [
+                    true,
+                    false,
+                    false
+                ],
+                [
+                    true,
+                    true,
+                    true
+                ]
+            ],
+            "type": 3
+        },
+        {
+            "componentDescription": "Le porte logiche implementano una particolare operazione logica di una o più variabili booleane. L'OR logico rende vero l'output solo quando almeno un input è vero",
+            "componentName": "Porta logica OR",
+            "inputNumber": 2,
+            "instanceDescription": "",
+            "instanceName": "OR",
+            "outputNumber": 1,
+            "truthTable": [
+                [
+                    false,
+                    false,
+                    false
+                ],
+                [
+                    false,
+                    true,
+                    true
+                ],
+                [
+                    true,
+                    false,
+                    true
+                ],
+                [
+                    true,
+                    true,
+                    true
+                ]
+            ],
+            "type": 3
+        },
+        {
+            "componentDescription": "Le porte logiche implementano una particolare operazione logica di una o più variabili booleane. Il NOT logico rende vero l'output solo quando l'input è falso e viceversa",
+            "componentName": "Porta logica NOT",
+            "inputNumber": 1,
+            "instanceDescription": "",
+            "instanceName": "NOT",
+            "outputNumber": 1,
+            "truthTable": [
+                [
+                    false,
+                    true
+                ],
+                [
+                    true,
+                    false
+                ]
+            ],
+            "type": 3
+        }
+    ]
+}
